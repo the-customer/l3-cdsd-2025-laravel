@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="{{ route('etudiants.index') }}">Accueil</a>
+          <a class="nav-link" href="{{ route('home.index') }}">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('etudiants.liste') }}">Etudiants</a>
+          <a class="nav-link" href="{{ route('articles.index') }}">Articles</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('about') }}">About</a>

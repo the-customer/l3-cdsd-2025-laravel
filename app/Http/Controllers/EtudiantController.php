@@ -29,6 +29,7 @@ class EtudiantController extends Controller
     public function Details($id)
     {
         $etuActu = $this->getEtudiantById($id);
+
         if($etuActu != null){
             return view('details',compact('etuActu'));
         }else{
